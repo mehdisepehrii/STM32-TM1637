@@ -10,10 +10,10 @@ Ex(Configuration):<br>
 #define DIO_PIN GPIO_PIN_2<br>
 #define CLK_PORT_CLK_ENABLE __HAL_RCC_GPIOA_CLK_ENABLE<br>
 #define DIO_PORT_CLK_ENABLE __HAL_RCC_GPIOA_CLK_ENABLE<br>
-#define SegmentNo 4<br>
+#define SegmentNo 4(set the number of segments that are conected to tm1637)<br>
 
 
-There are 3 functions that you need to know!
+There are 4 functions that you need to know!
 1. tm1637Init();<br>
 It uses once in codes before any other code for tm1637 to initialization.<br>
 
